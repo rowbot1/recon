@@ -1,3 +1,16 @@
-# recon
-crt scraper
-a basic script to pull subdomains from crt and present it. It contains to crt.sh files. If you cannot install jq use crt2.sh, else you can use crt1.sh
+# Recon
+
+## crt.sh scrapers
+
+|Name of File| Notes  |
+|--|--|
+|crt1.sh| requires jq to be installed  |
+|crt2.sh  | can be run if jq cannot be installed  |
+
+These are scripts to extract subdomains from crt.sh 
+
+**Usage:**
+
+`./crt1.sh offsecnewbie.com` 
+or
+`./crt2.sh offsecnewbie.com`
